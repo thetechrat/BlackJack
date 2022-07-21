@@ -1,0 +1,38 @@
+body {
+  background-color: green;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  color: goldenrod;
+}
+
+#message-el {
+}
+.start-btn {
+  color: green;
+  background-color: goldenrod;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 50px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@media (max-width: 760px) {
+  .start-btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
