@@ -29,8 +29,8 @@ function startGame() {
   isAlive = true;
   firstCard = getRandomCard();
   secondCard = getRandomCard();
-  cards = [firstCard, secondCard];
-  sum = firstCard + secondCard;
+  cards = [firstCard];
+  sum = firstCard;
   renderGame();
 }
 
